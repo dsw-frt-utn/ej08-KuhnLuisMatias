@@ -28,12 +28,16 @@
             //Console.WriteLine(resultado);
 
             //Ejercicio N5
-            var problema5 = new Problema5();
-            var retail = new RetailSale();
-            var wholesaleSale = new WholesaleSale();
-            Console.WriteLine($" Total Retail: {problema5.ObtenerImporteFinal(retail)}");
-            Console.WriteLine($" Total WholesaleSale: {problema5.ObtenerImporteFinal(wholesaleSale)}");
+            //var problema5 = new Problema5();
+            //var retail = new RetailSale();
+            //var wholesaleSale = new WholesaleSale();
+            //Console.WriteLine($" Total Retail: {problema5.ObtenerImporteFinal(retail)}");
+            //Console.WriteLine($" Total WholesaleSale: {problema5.ObtenerImporteFinal(wholesaleSale)}");
 
+            //Ejercicio N6
+            Console.WriteLine(Problema6.NormalizarCodigoProducto(" ab 123 x "));
+            Console.WriteLine(Problema6.NormalizarCodigoProducto(null));
+            Console.WriteLine(Problema6.NormalizarCodigoProducto("  laptop pro  "));
         }
     }
 
