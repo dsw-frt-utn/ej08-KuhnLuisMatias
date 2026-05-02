@@ -26,6 +26,14 @@
             //var problema4 = new Problema4();
             //double resultado = problema4.CalcularPromedio(null, 10, 5);
             //Console.WriteLine(resultado);
+
+            //Ejercicio N5
+            var problema5 = new Problema5();
+            var retail = new RetailSale();
+            var wholesaleSale = new WholesaleSale();
+            Console.WriteLine($" Total Retail: {problema5.ObtenerImporteFinal(retail)}");
+            Console.WriteLine($" Total WholesaleSale: {problema5.ObtenerImporteFinal(wholesaleSale)}");
+
         }
     }
 
