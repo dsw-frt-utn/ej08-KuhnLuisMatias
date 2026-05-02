@@ -4,7 +4,19 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(ProductHelper.ObtenerEtiquetaProducto(0001, "Yerba Mate RosaMonte", 500m));
+            var codigo = 0001;
+            var descripcion = "Yerba Mate RosaMonte";
+            var precio = 500M;
+            var cantidad = 2;
+
+            //Ejercicio N1
+            //Console.WriteLine(ProductHelper.ObtenerEtiquetaProducto(codigo, descripcion, precio));
+
+            //Ejercicio N2
+            //var problema2 = new Problema2();
+            //Console.WriteLine(problema2.CrearResumenVenta(codigo, descripcion, cantidad, precio));
+
+            //Ejercicio N3
         }
     }
 
