@@ -8,8 +8,8 @@
             {
                 Code = productCode,
                 Description = productDescription,
-                Quantity = quantity <= 0 ? 0 : quantity,
-                Total = unitPrice * quantity
+                Quantity = quantity,
+                Total = quantity <= 0 ? 0 : unitPrice * quantity
             };
 
             return $"{resumen.Code}-{resumen.Description}-{resumen.Total}";
